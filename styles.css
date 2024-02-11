@@ -39,7 +39,7 @@ body {
     object-fit: cover;
     position: fixed;
     z-index: -1;
-    top: 10px;
+    top: 0px;
 }
 
 .imgbox {
@@ -77,27 +77,135 @@ body {
 
 }
 
+.secondlayerheader {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .leftbutton {
     color: white;
     background-color: rgba(95, 112, 222, 10%);
     border: 2px solid #5F70DE;
     border-radius: 20px;
-    padding: 10px;
+    padding: 20px 40px 20px 40px;
     margin-top: 5%;
 }
 
 .main {
-    margin: 9em 0 0 0;
+    margin: 9em 0 18em 0;
     justify-content: center;
     display: flex;
 }
-
-
-
-
 
 .mainleft {
     text-align: center;
     width: 100%;
     max-width: 483px;
+}
+
+.ryo,
+.kita,
+.bocchi,
+.Nijika {
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border-radius: 40px;
+    border: 0.2em solid white;
+    display: flex;
+    box-shadow: 0 0 2em black;
+    margin-bottom: 2em;
+}
+
+.bandmembers {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 12em;
+}
+
+.secondlayer {
+    background: linear-gradient(#423B68, #3B316B, #423B68);
+    padding: 0.2em 0.2em 1em 0.2em;
+}
+
+.bandmembers {
+    color: white;
+    text-align: center;
+}
+
+.quotelayer {
+    background-image: url(bocchi\ bg.jpg);
+    color: white;
+    justify-content: center;
+    padding: 10em;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.quote {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quotename {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.quotetext {
+    text-shadow: 0 0 1em black;
+}
+
+.nametext {
+    text-shadow: 0 0 1em black;
+}
+
+.adlayer {
+    background: linear-gradient(#423B68, #3B316B, #423B68);
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 2em 0 2em 0;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    width: 50%;
+    padding: 2em 0 2em 0;
+    border-radius: 10px;
+}
+
+.adright {
+    align-items: center;
+    display: flex;
+}
+
+.adleft {
+    margin: 0 6em 0 0;
+    width: 30em;
+}
+
+.adtext {
+    margin: 1em 0 0 0;
+}
+
+.adheader {
+    margin: 0;
+}
+
+.adbutton {
+    color: white;
+    background-color: rgba(95, 112, 222, 10%);
+    border: 2px solid #5F70DE;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
 }
